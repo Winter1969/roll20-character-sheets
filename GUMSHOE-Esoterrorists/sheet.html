@@ -1,0 +1,138 @@
+﻿<img alt="" class="sheet-center-img" src="logo.jpg" />
+<div class="sheet-2colrow">
+	<div class="sheet-col">
+		<p>Name &nbsp;<input name="attr_name" type="text" style="width: calc(100% - 35px);" /></p>
+		<p>
+			Off-Duty Occupation<br/>
+			<textarea name="attr_occupation" rows="2" style="width: 100%;"></textarea>
+		</p>
+		<p>
+		Current Cover<br/>
+		<textarea name="attr_cover" rows="2" style="width: 100%;"></textarea>
+		</p>
+		<p>
+		Notes and Contacts<br/>
+		<textarea name="attr_contacts" rows="15" style="width: 100%;"></textarea>
+		</p>
+	</div>
+	<div class="sheet-col">
+		<p>Health &nbsp;[<span name="attr_health_p"></span>]</p>
+		<p>Stability &nbsp;[<span name="attr_stability_p"></span>]</p>
+		<p>Hit Threshold &nbsp;[<input name="attr_hitthreshold" type="number" value="3" class="sheet-number-input"/>]</p>
+		<div class="sheet-weapon-grid">
+			<div class="sheet-weaponname">Weapons</div><div class="sheet-weaponmod">&nbsp;Modifer</div>
+			<div class="sheet-weaponname"><input name="attr_weapon" type="text" value="Unarmed" disabled="true"></div>
+			<div class="sheet-weaponmod"><input name="attr_weaponmod" type="number" value="-2" disabled="true"></div>
+			<fieldset class="repeating_weapons">            
+				<div class="sheet-weaponname"><input name="attr_weapon" type="text"></div>
+				<div class="sheet-weaponmod"><input name="attr_weaponmod" type="number"></div>
+			</fieldset>
+		</div>
+		<div style="height: 15px;"></div>
+		<div class="sheet-col-header">General Abilities</div>
+		<div class="sheet-abilities">
+			<div class="sheet-abilityheader">Name</div><div class="sheet-abilityratingheader">Rating</div><div class="sheet-abilitypoolheader">Pool</div>
+			<div class="sheet-abilityname">Athletics</div><div class="sheet-abilityrating"><input name="attr_athletics_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_athletics_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Driving</div><div class="sheet-abilityrating"><input name="attr_driving_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_driving_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Filch</div><div class="sheet-abilityrating"><input name="attr_filch_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_filch_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Health</div><div class="sheet-abilityrating"><input name="attr_health_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_health_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Infiltration</div><div class="sheet-abilityrating"><input name="attr_infiltration_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_infiltration_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Mechanics</div><div class="sheet-abilityrating"><input name="attr_mechanics_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_mechanics_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Medic</div><div class="sheet-abilityrating"><input name="attr_medic_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_medic_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Preparedness</div><div class="sheet-abilityrating"><input name="attr_preparedness_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_preparedness_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Scuffling</div><div class="sheet-abilityrating"><input name="attr_scuffling_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_scuffling_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Shooting</div><div class="sheet-abilityrating"><input name="attr_shooting_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_shooting_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Shrink</div><div class="sheet-abilityrating"><input name="attr_shrink_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_shrink_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Stability</div><div class="sheet-abilityrating"><input name="attr_stability_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_stability_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Surveillance</div><div class="sheet-abilityrating"><input name="attr_surveillance_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_surveillance_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+		</div>
+		<div style="height: 15px;"></div>
+		<p>
+		Languages<br/>
+		<textarea name="attr_contacts" rows="2" style="width: 100%;"></textarea>
+		</p>
+	</div>
+</div>
+<div class="sheet-3colrow">
+	<div class="sheet-col">
+		<div class="sheet-col-header">Academic Abilities</div>
+		<div class="sheet-abilities">
+			<div class="sheet-abilityheader">Name</div><div class="sheet-abilityratingheader">Rating</div><div class="sheet-abilitypoolheader">Pool</div>
+			<div class="sheet-abilityname">Anthropology</div><div class="sheet-abilityrating"><input name="attr_anthropology_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_anthropology_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Archaeology</div><div class="sheet-abilityrating"><input name="attr_archaeology_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_archaeology_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Architecture</div><div class="sheet-abilityrating"><input name="attr_architecture_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_architecture_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Art History</div><div class="sheet-abilityrating"><input name="attr_arthistory_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_arthistory_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Forensic Accounting</div><div class="sheet-abilityrating"><input name="attr_forensicaccounting_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_forensicaccounting_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Forensic Psychology</div><div class="sheet-abilityrating"><input name="attr_forensicpsychology_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_forensicpsychology_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">History</div><div class="sheet-abilityrating"><input name="attr_history_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_history_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Languages</div><div class="sheet-abilityrating"><input name="attr_languages_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_languages_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Law</div><div class="sheet-abilityrating"><input name="attr_law_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_law_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Linguistics</div><div class="sheet-abilityrating"><input name="attr_linguistics_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_linguistics_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Natural History</div><div class="sheet-abilityrating"><input name="attr_naturalhistory_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_naturalhistory_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Occult Studies</div><div class="sheet-abilityrating"><input name="attr_occultstudies_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_occultstudies_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Pathology</div><div class="sheet-abilityrating"><input name="attr_pathology_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_pathology_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Research</div><div class="sheet-abilityrating"><input name="attr_research_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_research_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Textual Analysis</div><div class="sheet-abilityrating"><input name="attr_textualanalysis_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_textualanalysis_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Trivia</div><div class="sheet-abilityrating"><input name="attr_trivia_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_trivia_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname"><input name="attr_acad1" type="text"></div><div class="sheet-abilityrating"><input name="attr_acad1_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_acad1_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname"><input name="attr_acad2" type="text"></div><div class="sheet-abilityrating"><input name="attr_acad2_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_acad2_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname"><input name="attr_acad3" type="text"></div><div class="sheet-abilityrating"><input name="attr_acad3_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_acad3_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+		</div>	
+	</div>
+	<div class="sheet-col">
+		<div class="sheet-col-header">Interpersonal Abilities</div>
+		<div class="sheet-abilities">
+			<div class="sheet-abilityheader">Name</div><div class="sheet-abilityratingheader">Rating</div><div class="sheet-abilitypoolheader">Pool</div>
+			<div class="sheet-abilityname">Bullshit Detector</div><div class="sheet-abilityrating"><input name="attr_bullshitdetector_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_bullshitdetector_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Bureaucracy</div><div class="sheet-abilityrating"><input name="attr_bureaucracy_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_bureaucracy_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Cop Talk</div><div class="sheet-abilityrating"><input name="attr_coptalk_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_coptalk_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Flattery</div><div class="sheet-abilityrating"><input name="attr_flattery_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_flattery_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Flirting</div><div class="sheet-abilityrating"><input name="attr_flirting_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_flirting_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Impersonate</div><div class="sheet-abilityrating"><input name="attr_impersonate_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_impersonate_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Interrogation</div><div class="sheet-abilityrating"><input name="attr_interrogation_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_interrogation_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Intimidation</div><div class="sheet-abilityrating"><input name="attr_intimidation_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_intimidation_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Negotiation</div><div class="sheet-abilityrating"><input name="attr_negotiation_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_negotiation_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Reassurance</div><div class="sheet-abilityrating"><input name="attr_reassurance_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_reassurance_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Streetwise</div><div class="sheet-abilityrating"><input name="attr_streetwise_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_streetwise_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname"><input name="attr_int1" type="text"></div><div class="sheet-abilityrating"><input name="attr_int1_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_int1_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname"><input name="attr_int2" type="text"></div><div class="sheet-abilityrating"><input name="attr_int2_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_int2_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname"><input name="attr_int3" type="text"></div><div class="sheet-abilityrating"><input name="attr_int3_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_int3_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+		</div>	
+	</div>
+	<div class="sheet-col">
+		<div class="sheet-col-header">Technical Abilities</div>
+		<div class="sheet-abilities">
+			<div class="sheet-abilityheader">Name</div><div class="sheet-abilityratingheader">Rating</div><div class="sheet-abilitypoolheader">Pool</div>
+			<div class="sheet-abilityname">Astronomy</div><div class="sheet-abilityrating"><input name="attr_astronomy_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_astronomy_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Ballistics</div><div class="sheet-abilityrating"><input name="attr_ballistics_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_ballistics_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Chemistry</div><div class="sheet-abilityrating"><input name="attr_chemistry_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_chemistry_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Cryptography</div><div class="sheet-abilityrating"><input name="attr_cryptography_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_cryptography_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Data Retrieval</div><div class="sheet-abilityrating"><input name="attr_dataretrieval_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_dataretrieval_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Document Analysis</div><div class="sheet-abilityrating"><input name="attr_documentanalysis_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_documentanalysis_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Electronic Surveillance</div><div class="sheet-abilityrating"><input name="attr_electronicsurveillance_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_electronicsurveillance_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Evidence Collection</div><div class="sheet-abilityrating"><input name="attr_evidencecollection_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_evidencecollection_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Explosive Devices</div><div class="sheet-abilityrating"><input name="attr_explosivedevices_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_explosivedevices_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Fingerprinting</div><div class="sheet-abilityrating"><input name="attr_fingerprinting_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_fingerprinting_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Forensic Anthropology</div><div class="sheet-abilityrating"><input name="attr_forensicanthropology_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_forensicanthropology_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Forensic Entomology</div><div class="sheet-abilityrating"><input name="attr_forensicentomology_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_forensicentomology_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname">Photography</div><div class="sheet-abilityrating"><input name="attr_photography_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_photography_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname"><input name="attr_tech1" type="text"></div><div class="sheet-abilityrating"><input name="attr_tech1_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_tech1_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname"><input name="attr_tech2" type="text"></div><div class="sheet-abilityrating"><input name="attr_tech2_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_tech2_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+			<div class="sheet-abilityname"><input name="attr_tech3" type="text"></div><div class="sheet-abilityrating"><input name="attr_tech3_r" type="number" value="0" min="0" class="sheet-number-input"/></div><div class="sheet-abilitypool"><input name="attr_tech3_p" type="number" value="0" min="0" class="sheet-number-input"/></div>
+		</div>	
+	</div>
+</div>
+<hr/>
+
+<div>
+	<b>INVESTIGATIVE ABILITIES</b> 
+	<li>build points depend on the number of players: 5+ = 20 | 4 = 22 | 3 = 24 | 2 = 32 
+	<li>Each rating point in <b>Languages</b> grants 1 other language
+	<li>1 <b>Occult Studies</b> free. 
+	<br/><br/>
+	<b>GENERAL ABILITIES</b> 
+	<li>60 build points 
+	<li>plus 1 <b>Health</b>, and 1 <b>Stability</b> 
+	<li>Hit Threshold = 3 (4 if Athletics is 8 or more)
+	<li>8 points of Surveillance grants 1 free point of Electronic Surveillance
+</div>

@@ -1,0 +1,192 @@
+﻿.sheet-center-img {
+	display: block;
+	margin: auto;
+}
+
+.sheet-col-header {
+	font-family: Impact, Charcoal, sans-serif;
+	font-style: normal;
+	font-size: 125%;
+	font-weight: normal;
+	text-align: center;
+}
+
+.sheet-col p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-family: Impact, Charcoal, sans-serif;
+	font-style: normal;
+	font-size: 100%;
+	font-weight: normal;	
+}
+
+.sheet-col p input{
+	margin: 0px;
+	border: 1px solid lightgrey;
+	text-align: center;
+}
+
+.sheet-weapons-grid {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.sheet-weaponname {
+    display: inline-block;
+    vertical-align: top;
+	width: calc(75% - 2px);
+	font-family: Impact, Charcoal, sans-serif;
+	font-style: normal;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+.sheet-weaponmod {
+    display: inline-block;
+    vertical-align: top;
+	width: calc(25% - 2px);
+	font-family: Impact, Charcoal, sans-serif;
+	font-style: normal;
+	font-size: 100%;
+	font-weight: normal;
+	text-align: center;
+}
+
+.sheet-weaponname input,.sheet-weaponmod input {
+	width: calc(100% - 2px);
+	margin: 0px;
+}
+
+.sheet-weaponmod input {
+	text-align: center;
+}
+.sheet-number-input {
+		width: 40px;
+}
+
+.sheet-abilities {
+    display: inline-block;
+    vertical-align: top;
+	width: 100%;
+}
+
+div.sheet-abilityname:nth-child(even) {
+	background-color: #f0f0f0;
+}
+
+.sheet-abilityheader {
+	display: inline-block;
+    vertical-align: top;
+	width: calc(70% - 2px);
+	font-family: Impact, Charcoal, sans-serif;
+	font-style: normal;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+.sheet-abilityname {
+	display: inline-block;
+    vertical-align: top;
+	width: calc(70% - 2px);
+	font-family: Tahoma, Geneva, sans-serif;
+	font-style: normal;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+.sheet-abilityratingheader {
+	display: inline-block;
+    vertical-align: top;
+	font-family: Impact, Charcoal, sans-serif;
+	font-style: normal;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+.sheet-abilityrating {
+	display: inline-block;
+	width: auto;
+}
+
+.sheet-abilityrating input{
+	margin: 0px;
+	width: 30px;
+	padding: 0px;
+}
+
+.sheet-abilitypoolheader {
+	display: inline-block;
+    vertical-align: top;
+	font-family: Impact, Charcoal, sans-serif;
+	font-style: normal;
+	font-size: 100%;
+	font-weight: normal;
+	width: auto;
+	margin-left: 5px;
+	
+}
+
+.sheet-abilitypool {
+	display: inline-block;
+	width: auto;
+}
+
+.sheet-abilitypool input{
+	margin: 0px;
+	width: 30px;
+	padding: 0px;
+}
+
+.sheet-repeatingpool input{
+	margin: 0px;
+}
+
+.sheet-3colrow .sheet-col {
+    width: calc(33% - 5px);
+    margin-right: 5px;
+}
+
+.sheet-3colrow .sheet-col .sheet-abilityheader {
+	display: inline-block;
+    vertical-align: top;
+	width: calc(65% - 2px);
+	font-family: Impact, Charcoal, sans-serif;
+	font-style: normal;
+	font-size: 85%;
+	font-weight: normal;
+}
+
+.sheet-3colrow .sheet-col .sheet-abilityname {
+	display: inline-block;
+    vertical-align: top;
+	width: calc(65% - 2px);
+	font-family: Tahoma, Geneva, sans-serif;
+	font-style: normal;
+	font-size: 85%;
+	font-weight: normal;
+}
+
+.sheet-3colrow .sheet-col .sheet-abilityname input {
+	width: calc(100% - 2px);
+	margin: 0px;
+}
+
+.sheet-3colrow .sheet-col .sheet-abilityratingheader {
+	display: inline-block;
+    vertical-align: top;
+	font-family: Impact, Charcoal, sans-serif;
+	font-style: normal;
+	font-size: 85%;
+	font-weight: normal;
+}
+
+.sheet-3colrow .sheet-col .sheet-abilitypoolheader {
+	display: inline-block;
+    vertical-align: top;
+	font-family: Impact, Charcoal, sans-serif;
+	font-style: normal;
+	font-size: 85%;
+	font-weight: normal;
+	width: auto;
+	margin-left: 5px;
+	
+}
